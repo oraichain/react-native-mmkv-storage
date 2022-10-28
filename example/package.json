@@ -8,7 +8,7 @@
     "start": "react-native start",
     "test": "jest",
     "lint": "eslint .",
-    "pod:install": "cd ios && RCT_NEW_ARCH_ENABLED=1 pod install"
+    "pod:install": "cd ios && PRODUCTION=1 RCT_NEW_ARCH_ENABLED=1 pod install"
   },
   "dependencies": {
     "react": "^18.2.0",
